@@ -1,0 +1,146 @@
+.padding1 {
+    background: #fff358;
+    border: dotted 3px;
+    padding: 45px 45px 45px 45px;
+    max-width: 720px;
+}
+
+.padding2 {
+    background: #b03015;
+    border: dashed 2px;
+    padding: 25px 150px 25px 150px;
+    max-width: 720px;
+}
+
+.padding3 {
+    background: #34b015;
+    border: double 5px;
+    padding: 25px 150px 80px 66px;
+    max-width: 720px;
+}
+
+.margin1 {
+    background: #b03015;
+    border: dashed 2px;
+    padding: 25px;
+    max-width: 400px;
+}
+
+.margin2 {
+    background: #34b015;
+    border: double 5px;
+    margin-left: 55px;
+    padding: 25px;
+    max-width: 400px;
+}
+
+.margin3 {
+    background: #fff358;
+    border: dotted 3px;
+    margin-left: 155px;
+    padding: 25px;
+    max-width: 400px;
+}
+
+.hover1 {
+    background: #fff358;
+    border: dotted 3px;
+    margin: 25px;
+    padding: 25px;
+    max-width: 720px;
+}
+
+.hover2 {
+    background: #34b015;
+    border: dotted 3px;
+    margin: 25px;
+    padding: 25px;
+    max-width: 720px;
+}
+
+.hover2:hover {
+    background: #343434;
+}
+
+.hover3 {
+    background: #b03015;
+    border: dotted 3px;
+    margin: 25px;
+    padding: 25px;
+    width: 720px;
+    max-width: 720px;
+    /*transition-property: width;
+    transition-duration: 4s;
+    transition-delay: 3s;*/
+}
+
+.hover3:hover {
+    width: 650px;
+    transition-property: width;
+    transition-duration: 4s;
+    transition-delay: 3s;
+}
+
+.columnhead {
+    background: #343434;
+    color: #34b015;
+    filter:contrast(25%);
+}
+
+.column1 {
+    background: #fff358;
+    color: #343434;
+    filter:contrast(300%);
+}
+
+.column2 {
+    background: #b03015;
+    color: #fff358;
+    filter:contrast(223%);
+}
+
+.column3 {
+    background: #34b015;
+    color: #1544b0;
+    filter:contrast(80%);
+}
+
+.column4 {
+    background: #146678;
+    color: #781478;
+    filter:contrast(20%);
+}
+
+.column5 {
+    background: #783814;
+    color: #9dbf29;
+    filter:contrast(35%);
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    left: 30px;
+}
+
+.fixed {
+    position: fixed;
+    left: 80px;
+    bottom: 100px;
+}
+
+.horizontal {
+    text-shadow: 2px 0px blue;
+}
+
+.vertical {
+    text-shadow: 0px 2px blue;
+}
+
+.blur {
+    text-shadow: 2px 2px 2px blue;
+    
+}

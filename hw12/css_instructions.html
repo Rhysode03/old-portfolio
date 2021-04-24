@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en-US">
+
+    <head>
+    <meta charset="UTF-8">
+
+    <title>Introduction to CSS</title>
+
+    <meta name="description" content="This is an introduction to css">
+    <meta name="keywords" content="introduction to css, Beginners Guide, tutorials,">
+    <meta name="author" content= "Kyle Calder">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/png" href="images/upload.png">
+    <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
+    <link href="stylesheets/example.css" rel="stylesheet" type="text/css">
+
+    </head>
+
+        <body>
+<div class="row">
+    <header class="col-12 col-m-12">
+        <img src="images/blur-computer.jpg"
+        alt="What we learn becomes a part of who we are"> 
+        <p>An introduction to CSS</p>
+    </header>
+    <nav class="col-12 col-m-12">
+        <ul>
+            <li><a href="index.html" 
+                title="Go to main Protfolio page">Main Page</a>
+            </li>
+            <li><a href="how_to_publish.html" 
+                title="Go to how to publish to the web">
+                How to publish a website</a></li>
+            <li><a href="url/url_examples.html" 
+                title="Go to how to set up a URL">
+                URL examples</a>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn">See More
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="css_instructions.html"
+                            title="Go to css instructions">Css instructions</a>
+                            <a href="how_to_build_a_computer.html"
+                            title="Go to how to build a computer">
+                            How to build a computer</a>
+                            <a href="javascript_story.html"
+                            title="Go to javascript story">Javascript story</a>
+                            <a href="slideshow.html"
+                            title="Go to javascript slideshow">
+                            Javascript slideshow</a>
+                            <a href="form.html"
+                            title="Go to a form">
+                            Let's buy a plane ticket!</a>
+                            <a href="animations.html"
+                            title="Go to animations">
+                            Cool animations</a>
+                        </div>
+                        </div>
+            </li>
+        </ul>
+        </nav>
+        </div>
+
+<div class="row">
+<main class="col-12 col-m-12">
+    <section>
+<h1>Introduction to CSS</h1>
+<h2>The CSS box model</h2>
+<img src="images/box-model.png" 
+alt="The CSS box model" width="400" height="200">
+<p>There are four parts to the CSS box model. The first
+    is the content, this is what the person viewing your
+    webpage will see. The second is the padding, this is
+    what's between your content and the container it is 
+    in. The third is the border, this is an optional thing
+    that you can add to really separate your content from
+    other content in your page. The fourth is margin,
+    this is similar to padding but is the space at the end
+    of all of this and pushes other content away from the 
+    content in your box.
+</p>
+</section>
+
+<section>
+<h2>Padding Examples</h2>
+<div class="padding1"><p>This padded area has the same values on each side.
+ Top: 45px, Right: 45px, Bottom: 
+45px, Left: 45px.</p></div>
+<div class="padding2"><p>This padded area has the same
+    values for the top and bottom .the same values for the
+    left and right sides. Top: 25px, Right: 150px, Bottom:
+    25px, Left: 150px.
+</p></div>
+<div class="padding3"><p>This padded area has all 
+    different values on each side. Top: 25px, Right: 150px,
+    Bottom: 80px, Left: 66px.</p></div>
+</section>
+
+<section>
+<h2>Margin Examples</h2>
+<div class="margin1"><p>There is no margin property set
+    in this area.
+</p></div>
+<div class="margin2">The left margin is set to 55px in 
+    this area.
+</div>
+<div class="margin3"><p>The left margin is set to 155px
+    in the area.
+</p></div>
+</section>
+
+<section>
+<h2>Hover Style</h2>
+<p>When you hover over an object usually the element
+    will change to indecate that you can interact with
+    it or that you are hovering over it.
+</p>
+<div class="hover1"><p>This section has no hover effect.
+    Wow! So boring right?
+</p></div>
+<div class="hover2"><p>The background changes color on 
+    this section. That's pretty cool right?
+</p></div>
+<div class="hover3"><p>The size of this section will
+    change size when you hover. 
+</p></div>
+</section>
+
+<section>
+<h2>Color Contrast</h2>
+<table>
+    <tr>
+        <th class="columnhead">Lorem ipsum dolor sit.</th>
+        <th class="columnhead">Background color</th>
+        <th class="columnhead">Text color</th>
+        <th class="columnhead">Contrast</th>
+        <th class="columnhead">Rating</th>
+        <th class="columnhead">Lorem ipsum dolor sit.</th>
+    </tr>
+    <tr>
+        <td class="column1">Lorem ipsum dolor sit.</td>
+        <td class="column1">#fff358</td>
+        <td class="column1">#343434</td>
+        <td class="column1">contrast(300%)</td>
+        <td class="column1">AAA</td>
+        <td class="column1">Lorem ipsum dolor sit.</td>
+    </tr>
+    <tr>
+        <td class="column2">Lorem ipsum dolor sit.</td>
+        <td class="column2">#b03015</td>
+        <td class="column2">#fff358</td>
+        <td class="column2">contrast(223%)</td>
+        <td class="column2">AA</td>
+        <td class="column2">Lorem ipsum dolor sit.</td>
+    </tr>
+    <tr>
+        <td class="column3">Lorem ipsum dolor sit.</td>
+        <td class="column3">#34b015</td>
+        <td class="column3">#1544b0</td>
+        <td class="column3">contrast(80%)</td>
+        <td class="column3">None</td>
+        <td class="column3">Lorem ipsum dolor sit.</td>
+    </tr>
+    <tr>
+        <td class="column4">Lorem ipsum dolor sit.</td>
+        <td class="column4">#146678</td>
+        <td class="column4">#781478</td>
+        <td class="column4">contrast(20%)</td>
+        <td class="column4">None</td>
+        <td class="column4">Lorem ipsum dolor sit.</td>
+    </tr>
+    <tr>
+        <td class="column5">Lorem ipsum dolor sit.</td>
+        <td class="column5">#783814</td>
+        <td class="column5">#9dbf29</td>
+        <td class="column5">contrast(35%);</td>
+        <td class="column5">AA</td>
+        <td class="column5">Lorem ipsum dolor sit.</td>
+    </tr>
+</table>
+</section>
+
+<section>
+<h2>Positioning</h2>
+<p>When you position things using the position property 
+    things will stay where you place them.
+</p>
+<div class="relative"><p>This is what happens with the relative property. 
+    The element is positioned relative to
+    its normal position, so "left:20px" adds 20 pixels to
+    the element's LEFT position
+</p></div>
+<div class="absolute"><p>This is what happens with 
+absolute property.The element is positioned relative to its
+first positioned (not static) ancestor element</p></div>
+<div class="fixed"><p>This is what happens with
+fixed property. The element is positioned relative to the
+browser window
+</p></div>
+</section>
+
+<section>
+<h2>Shadows</h2>
+<p class="horizontal">The h-shadow property sets the position of the
+    horizontal shadow</p>
+<p class="vertical">The v-shadow property sets the 
+    position of the vertical shadow.
+</p>
+<p class="blur">The blur-radius property sets the blur
+    amount of the shadow.
+</p>
+</section>
+</main>
+</div>
+
+<div class="row">
+<footer class="col-m-12 col-12">
+<div class="col-m-3 col-3">
+<h3>Contact</h3>
+<p>kylebcalder03@gmail.com</p>
+</div>
+<div class="col-m-3 col-3">
+<h3>Copyright &#x24B8; 2019</h3>
+</div>
+<div class="col-m-3 col-3">
+    <h3>Site Map</h3>
+        <ul>
+                <li><a href="index.html" 
+                    title="Go to main Protfolio page">Main Page</a>
+                </li>
+                <li><a href="how_to_publish.html" 
+                    title="Go to how to publish to the web">
+                    How to publish a website</a></li>
+                <li><a href="url/url_examples.html" 
+                    title="Go to how to set up a URL">
+                    URL examples</a>
+                </li>
+                <li><a href="css_instructions.html"
+                    title="Go to css instructions">Css instructions</a>
+                </li>
+            </ul>
+</div>
+<div class="col-m-3 col-3">
+    <h3>Giving Credit</h3>
+    Icons made by <a href="https://www.freepik.com/" 
+    title="Freepik">
+    Freepik</a> from <a href="https://www.flaticon.com/"
+    title="Flaticon">www.flaticon.com</a> is licensed by 
+    <a href="http://creativecommons.org/licenses/by/3.0/"
+    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+</footer>
+</div>
+</body>
+</html>
